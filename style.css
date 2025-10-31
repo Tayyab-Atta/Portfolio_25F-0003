@@ -1,0 +1,166 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0e1411;
+    color: #eaffea;
+    margin: 0;
+    padding: 0;
+}
+
+.info-box {
+    background-color: #1a2f25;
+    border: 2px solid #4ade80;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 25px auto;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #14532d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    color: #a7f3d0;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links a {
+    color: #d1fae5;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: #86efac;
+    transition: 0.3s;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.background {
+  background-image: url('Background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#home {
+    background-color: #1e2e25;
+}
+
+.highlight {
+    color: #4ade80;
+}
+
+.profile {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 15px 0;
+    border: 3px solid #4ade80;
+    transition: transform 0.3s;
+}
+
+.profile:hover {
+    transform: scale(1.1);
+}
+
+/* Education Section */
+#education {
+    background-color: #24382d;
+}
+
+/* Contact Form */
+form {
+    background-color: #1a2b22;
+    padding: 25px;
+    border-radius: 12px;
+    width: 80%;
+    max-width: 420px;
+    margin: 0 auto;
+    text-align: left;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #bbf7d0;
+    font-weight: 500;
+}
+
+input, textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #4ade80;
+    border-radius: 6px;
+    background-color: #102019;
+    color: #eaffea;
+    font-size: 14px;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #94c9a2;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+input[type="submit"], input[type="reset"] {
+    background-color: #4ade80;
+    border: none;
+    color: #0e1411;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 25px;
+    margin: 5px;
+    border-radius: 6px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #22c55e;
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #14532d;
+    color: #bbf7d0;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+}
+
+footer a {
+    color: #4ade80;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #86efac;
+}
